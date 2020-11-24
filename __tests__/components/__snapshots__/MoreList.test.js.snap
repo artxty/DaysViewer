@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreList renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(242, 242, 247)",
+      "flex": 1,
+    }
+  }
+>
+  <SectionList
+    ItemSeparatorComponent={[Function]}
+    ListHeaderComponent={[Function]}
+    SectionSeparatorComponent={[Function]}
+    keyExtractor={[Function]}
+    renderItem={[Function]}
+    renderSectionFooter={[Function]}
+    renderSectionHeader={[Function]}
+    sections={
+      Array [
+        Object {
+          "data": Array [
+            1,
+            2,
+            3,
+          ],
+          "titile": "1",
+        },
+        Object {
+          "data": Array [
+            3,
+            4,
+            5,
+          ],
+          "titile": "2",
+        },
+      ]
+    }
+    stickySectionHeadersEnabled={false}
+  />
+</View>
+`;

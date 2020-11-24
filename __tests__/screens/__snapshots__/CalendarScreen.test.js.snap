@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CalendarScreen renders correctly 1`] = `
+<View>
+  <NavigationEvents
+    onWillFocus={[Function]}
+  />
+  <Portal>
+    <RatingModal
+      dayData={
+        Object {
+          "id": "2020-01-01",
+          "note": "",
+          "rating": 0,
+        }
+      }
+      onSave={[Function]}
+    />
+  </Portal>
+  <Calendar
+    days={
+      Object {
+        "2020-01-01": Object {
+          "note": "Note123",
+          "rating": 1,
+        },
+      }
+    }
+    onDayPress={[Function]}
+    onScroll={[Function]}
+    pastMonthsRange={3}
+  />
+</View>
+`;

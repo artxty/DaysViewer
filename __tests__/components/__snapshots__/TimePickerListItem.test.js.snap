@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TimePickerListItem renders correctly when DateTimePicker is hidden 1`] = `
+<View
+  style={Object {}}
+>
+  <TouchableOpacity
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+          }
+        }
+      >
+        Time
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "rgb(0, 122, 255)",
+            "fontSize": 18,
+          }
+        }
+      >
+        4:20 AM
+      </Text>
+    </View>
+  </TouchableOpacity>
+</View>
+`;
+
+exports[`TimePickerListItem should appear DateTimePicker after onPress 1`] = `
+<View
+  style={Object {}}
+>
+  <TouchableOpacity
+    onPress={[Function]}
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "fontSize": 18,
+          }
+        }
+      >
+        Time
+      </Text>
+      <Text
+        style={
+          Object {
+            "color": "rgb(0, 122, 255)",
+            "fontSize": 18,
+          }
+        }
+      >
+        4:20 AM
+      </Text>
+    </View>
+  </TouchableOpacity>
+  <DateTimePicker
+    display="default"
+    mode="time"
+    onChange={[Function]}
+    testID="dateTimePicker"
+    value={1899-12-31T04:20:00.000Z}
+  />
+</View>
+`;

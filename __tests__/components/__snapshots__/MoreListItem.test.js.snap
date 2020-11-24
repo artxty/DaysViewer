@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreListItem renders correctly 1`] = `
+<View
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "alignItems": "center",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+    }
+  }
+>
+  <Text
+    style={
+      Object {
+        "fontSize": 18,
+      }
+    }
+  >
+    test
+  </Text>
+  <div />
+</View>
+`;

@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calendar renders correctly 1`] = `
+<CalendarList
+  displayLoadingIndicator={true}
+  futureScrollRange={0}
+  markedDates={Object {}}
+  onDayPress={[Function]}
+  onVisibleMonthsChange={[Function]}
+  pastScrollRange={3}
+/>
+`;
+
+exports[`Calendar transforms days prop into markedDates correctly 1`] = `
+<CalendarList
+  displayLoadingIndicator={true}
+  futureScrollRange={0}
+  markedDates={
+    Object {
+      "mock day id 0": Object {
+        "dotColor": "rgb(142, 142, 147)",
+        "marked": true,
+        "selected": true,
+        "selectedColor": "rgb(229, 229, 234)",
+      },
+      "mock day id 1": Object {
+        "dotColor": "rgb(142, 142, 147)",
+        "marked": true,
+        "selected": true,
+        "selectedColor": "rgb(255, 59, 48)",
+      },
+      "mock day id 2": Object {
+        "dotColor": "rgb(142, 142, 147)",
+        "marked": true,
+        "selected": true,
+        "selectedColor": "rgb(255, 149, 0)",
+      },
+      "mock day id 3": Object {
+        "dotColor": "rgb(142, 142, 147)",
+        "marked": true,
+        "selected": true,
+        "selectedColor": "rgb(255, 204, 0)",
+      },
+      "mock day id 4": Object {
+        "dotColor": "rgb(142, 142, 147)",
+        "marked": true,
+        "selected": true,
+        "selectedColor": "rgb(164, 202, 80)",
+      },
+      "mock day id 5": Object {
+        "dotColor": "rgb(142, 142, 147)",
+        "marked": true,
+        "selected": true,
+        "selectedColor": "rgb(52, 199, 89)",
+      },
+    }
+  }
+  onDayPress={[Function]}
+  onVisibleMonthsChange={[Function]}
+  pastScrollRange={3}
+/>
+`;

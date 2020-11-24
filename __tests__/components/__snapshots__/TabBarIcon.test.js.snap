@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Ionicons
+  color="#ccc"
+  name="test"
+  size={26}
+  style={
+    Object {
+      "marginBottom": -3,
+    }
+  }
+/>
+`;
+
+exports[`renders correctly when focused 1`] = `
+<Ionicons
+  color="#2f95dc"
+  name="test"
+  size={26}
+  style={
+    Object {
+      "marginBottom": -3,
+    }
+  }
+/>
+`;

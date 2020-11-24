@@ -1,0 +1,56 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MoreScreen renders correctly 1`] = `
+<MoreList
+  sections={
+    Array [
+      Object {
+        "data": Array [
+          <NotificationsListItem
+            hook={
+              Array [
+                Object {},
+                [MockFunction],
+              ]
+            }
+          />,
+          <pastMonthsRangeListItem
+            hook={
+              Array [
+                3,
+                [MockFunction],
+              ]
+            }
+          />,
+        ],
+        "title": "Settings",
+      },
+      Object {
+        "data": Array [
+          <ListItem
+            label="Export"
+            onPress={[Function]}
+            style={Object {}}
+          >
+            <Button
+              onPress={[Function]}
+              title="Share backup file"
+            />
+          </ListItem>,
+          <ListItem
+            label="Import"
+            onPress={[Function]}
+            style={Object {}}
+          >
+            <Button
+              onPress={[Function]}
+              title="Choose backup file"
+            />
+          </ListItem>,
+        ],
+        "title": "Data",
+      },
+    ]
+  }
+/>
+`;

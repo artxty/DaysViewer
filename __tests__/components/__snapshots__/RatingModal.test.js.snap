@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingModal renders correctly 1`] = `
+<Modalize
+  FooterComponent={[Function]}
+  HeaderComponent={[Function]}
+  adjustToContentHeight={true}
+  modalTopOffset={50}
+>
+  <View
+    style={
+      Object {
+        "paddingHorizontal": 15,
+      }
+    }
+  >
+    <RatingPicker
+      onPress={[Function]}
+    />
+    <TextInput
+      maxLength={400}
+      multiline={true}
+      numberOfLines={1}
+      onChangeText={[Function]}
+      placeholder="Note"
+      style={
+        Object {
+          "backgroundColor": "rgb(242, 242, 247)",
+          "borderRadius": 15,
+          "fontSize": 16,
+          "fontWeight": "500",
+          "marginVertical": 15,
+          "minHeight": 50,
+          "padding": 15,
+        }
+      }
+    />
+  </View>
+</Modalize>
+`;
